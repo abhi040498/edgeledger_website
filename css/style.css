@@ -43,12 +43,12 @@
     color: white;
 }
 
-.bg-light {
+.bg-light, .btn-light {
     background: #f4f4f4;
     color: #333;
 }
 
-.bg-dark {
+.bg-dark , .btn-dark{
     background: #333;
     color: white;
 }
@@ -215,7 +215,7 @@ img {
 }
 
 .navbar .logo {
-    font-weight: 300;
+    font-weight: 500;
     border-bottom: none;
 }
 /* Anything in the main-header to appear above */
@@ -238,6 +238,35 @@ img {
     height: 100vh;
     color: white;
     position: relative;
+}
+
+/* main-header blog styling */
+.main-header.blog {
+    background: url('../images/home/blog.jpg') no-repeat center center/cover ;
+    height: 30vh;
+    color: white;
+    position: relative;
+}
+
+.blog-post {
+    padding-top: 40px;
+}
+.blog-post-title h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin: 10px ;
+    border-bottom: 1px solid #b1adad;
+    margin-bottom: 20px;
+}
+.blog-post-title p {
+    padding-bottom: 10px;
+    margin: 10px ;
+    margin-bottom: 20px;
+}
+.blog-post img {
+    text-align: center;
+    padding: 0px 33%;
+    border-radius: 50%;
 }
 
 .main-header .primary-content {
@@ -328,6 +357,15 @@ img {
 
 .footer .social > * {
     margin-right: 30px;
+}
+
+/* Blog CSS Styling  */
+.blogpost h2 {
+    margin-bottom: 15px;
+}
+
+.blogpost h4 {
+    font-weight: normal;
 }
 
 /* CSS styling Ends here */
